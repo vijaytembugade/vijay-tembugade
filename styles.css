@@ -43,14 +43,29 @@ body{
 .technologies-known > h3 {
   padding: 0.5rem 0.5rem;
 }
-.technologies-known > div {
-  padding: 0.3rem 0.3rem;
+
+
+
+small{
+  font-size: x-small;
+}
+
+.project-done{
+  background-color: #dce3f3;
+  border-radius: 0.5rem;
+}
+.project-done .show-project{
+  background-color: #1f2833;
+  color: #45A29E;
+  border-radius: 2rem;
+  padding: 0.2rem 0.2rem;
+}
+.project-done > h3{
+    padding: 0.5rem 0.5rem;
 }
 
 .footer{
   background-color: #1f2833;
-  color : #66FCF1
-}
-small{
-  font-size: x-small;
+  color : #66FCF1;
+  margin: 1rem 1rem;
 }
