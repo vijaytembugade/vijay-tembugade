@@ -110,7 +110,7 @@ small {
 .footer {
   background-color: #1f2833;
   color: #66fcf1;
-  margin: 5rem 1rem;
+  margin: 5rem 0rem;
   border-radius: 0.5rem;
 }
 .social{
@@ -121,6 +121,6 @@ small {
   text-decoration: none;
   background-color: azure;
   color:#1f2833;
-  padding: 0.2rem 0.2rem;
+  padding: 0.4rem 0.2rem;
   border-radius: 0.3rem;
 }
