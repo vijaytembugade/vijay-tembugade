@@ -1,42 +1,49 @@
-@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap");
 
-.title{
-  font-family: 'Source Code Pro', monospace;
+.title {
+  font-family: "Source Code Pro", monospace;
 }
-.sub-title{
-  font-family: 'Ubuntu', sans-serif;
+.sub-title {
+  font-family: "Ubuntu", sans-serif;
 }
-body{
-  font-family: 'Roboto', sans-serif;
+body {
+  font-family: "Roboto", sans-serif;
 }
 .container {
-  padding-left : 3em;
-  padding-right : 3em;
-  max-width : 700px;
+  padding-left: 3em;
+  padding-right: 3em;
+  max-width: 700px;
   margin: auto;
 }
-.link{
+.link {
   text-decoration: none;
   padding: 2rem 1rem;
+  
 }
 
-.navigator{
-  background-color: #1F2833;
+.nav-icon{
+  margin: 0rem 1rem;
+  color : #c5c6c7;
+  padding: 0.2rem 1rem;
+}
+
+.navigator {
+  background-color: #1f2833;
   border-radius: 1em;
-  height: 3.5rem;
+  height: 5rem;
 }
-.navigator .link{
-  color :#66FCF1;
-  font-size: 12px;
+.navigator .link {
+  color: #66fcf1;
+  font-size: 15px;
 }
 
-.div--nav{
+.div--nav {
   padding: 1rem 1rem;
   text-align: right;
 }
 
-.technologies-known{
+.technologies-known {
   background-color: #dce3f3;
   border-radius: 0.5rem;
 }
@@ -44,28 +51,47 @@ body{
   padding: 0.5rem 0.5rem;
 }
 
-
-
-small{
+small {
   font-size: x-small;
 }
 
-.project-done{
+.project-done {
   background-color: #dce3f3;
   border-radius: 0.5rem;
 }
-.project-done .show-project{
+.project-done .show-project {
   background-color: #1f2833;
-  color: #45A29E;
+  color: #66fcf1;
   border-radius: 2rem;
-  padding: 0.2rem 0.2rem;
+  padding: 0.5rem 0.5rem;
 }
-.project-done > h3{
+.project-done > h3 {
+  padding: 0.5rem 0.5rem;
+}
+
+.blogs .show-blogs {
+  background-color: #1f2833;
+  color: #66fcf1;
+  border-radius: 2rem;
+  padding: 0.5rem 0.5rem;
+}
+
+.extra-about-me{
+  background-color: #dce3f3;
+  border-radius: 0.5rem;
+}
+.extra-about-me .show-extra{
+  background-color: #1f2833;
+  color: #66fcf1;
+  border-radius: 2rem;
+  padding: 0.5rem 0.5rem;
+}
+.extra-about-me > h3{
     padding: 0.5rem 0.5rem;
 }
 
-.footer{
+.footer {
   background-color: #1f2833;
-  color : #66FCF1;
+  color: #66fcf1;
   margin: 1rem 1rem;
 }
