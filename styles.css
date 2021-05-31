@@ -19,7 +19,6 @@ body {
 .link {
   text-decoration: none;
   padding: 2rem 1rem;
-  
 }
 
 .nav-icon{
@@ -38,6 +37,12 @@ body {
   font-size: 15px;
 }
 
+#img1{
+  width: 50%;
+  align-items: center;
+  position: relative;
+  left : 25%;
+}
 .div--nav {
   padding: 1rem 1rem;
   text-align: right;
@@ -46,6 +51,9 @@ body {
 .technologies-known {
   background-color: #dce3f3;
   border-radius: 0.5rem;
+}
+.intro{
+  padding: 3rem 0rem;
 }
 .technologies-known > h3 {
   padding: 0.5rem 0.5rem;
@@ -69,6 +77,14 @@ small {
   padding: 0.5rem 0.5rem;
 }
 
+.blogs{
+  padding: 2rem 0rem;
+}
+
+.roles{
+  padding: 2rem 0rem;
+}
+
 .blogs .show-blogs {
   background-color: #1f2833;
   color: #66fcf1;
@@ -77,21 +93,34 @@ small {
 }
 
 .extra-about-me{
-  background-color: #dce3f3;
   border-radius: 0.5rem;
 }
+
 .extra-about-me .show-extra{
-  background-color: #1f2833;
-  color: #66fcf1;
+  background-color: #66fcf1;
+  color: #1f2833;
   border-radius: 2rem;
   padding: 0.5rem 0.5rem;
 }
 .extra-about-me > h3{
     padding: 0.5rem 0.5rem;
+    color: #c5c6c7;
 }
 
 .footer {
   background-color: #1f2833;
   color: #66fcf1;
-  margin: 1rem 1rem;
+  margin: 5rem 1rem;
+  border-radius: 0.5rem;
+}
+.social{
+  color : #c5c6c7;
+}
+
+.social-tag{
+  text-decoration: none;
+  background-color: azure;
+  color:#1f2833;
+  padding: 0.2rem 0.2rem;
+  border-radius: 0.3rem;
 }
