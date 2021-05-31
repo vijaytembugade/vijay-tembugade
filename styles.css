@@ -1,11 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@400&display=swap");
 
 .title {
   font-family: "Source Code Pro", monospace;
 }
 .sub-title {
   font-family: "Ubuntu", sans-serif;
+}
+.fonty {
+    font-style: 'Lora', serif !important;
 }
 body {
   font-family: "Roboto", sans-serif;
@@ -155,4 +158,34 @@ small {
 .project-show{
   position:initial;
   left: 50%;
+}
+
+/* blogs  css */
+.blog-button{
+  text-decoration: none;
+  border: 1px solid;
+  display: inline;
+  color: #1f2833;
+  background-color: #66fcf1;
+  border-radius: 0.2rem;
+  padding: 0.5rem 0.5rem;
+}
+.blog-button:hover{
+  text-decoration: none;
+  border: 1px solid;
+  display: inline;
+  color: #66fcf1;
+  background-color: #1f2833;
+  border-radius: 0.2rem;
+  padding: 0.5rem 0.5rem;
+}
+
+/* blogs contain */
+.blog-content{
+  text-align: justify;
+  text-justify: inter-word;
+
+}
+.blog-show{
+padding: 2rem 0rem;
 }
