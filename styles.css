@@ -12,6 +12,7 @@
 }
 body {
   font-family: "Roboto", sans-serif;
+  font-size: 20px;
 }
 .container {
   padding-left: 3em;
@@ -196,12 +197,21 @@ padding: 2rem 0rem;
 }
 
 @media only screen and (max-width: 500px) {
+
+  body {
+    font-size: 16px;
+  }
   .nav-icon {
     margin: 0rem 1rem;
     color: #c5c6c7;
     padding: 0.2rem 1rem;
     position: relative;
     top: 0.6rem;
+    left: 25%;
     font-size:medium;
+  }
+
+  .div--nav{
+    text-align: center;
   }
 }
