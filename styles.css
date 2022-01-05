@@ -2,8 +2,10 @@
 @import url("https://fonts.googleapis.com/css2?family=Lora&family=Ubuntu:wght@400&display=swap");
 
 body{
-  margin :0
+
+  margin: 0px;
 }
+
 .title {
   font-family: "Source Code Pro", monospace;
 }
@@ -30,7 +32,7 @@ body {
 
 .nav-icon {
   margin: 0rem 1rem;
-  color: #c5c6c7;
+  color: #ffffff;
   padding: 0.2rem 1rem;
   position: relative;
   top: 1.7rem;
@@ -39,7 +41,6 @@ body {
 
 .navigator {
   background-color: #1f2833;
-  border-radius: 0.6em;
   height: 5rem;
 }
 .navigator .link {
@@ -122,7 +123,6 @@ small {
   background-color: #1f2833;
   color: #66fcf1;
   margin-top : 5rem;
-  border-radius: 0.5rem;
 }
 .social {
   color: #c5c6c7;
